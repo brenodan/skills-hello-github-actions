@@ -4,6 +4,8 @@
 
 _Create and run a GitHub Actions workflow._
 
+🤠
+
 </header>
 
 ## Finish
@@ -12,7 +14,7 @@ _Congratulations friend, you've completed this course!_
 
 <img src=https://octodex.github.com/images/jetpacktocat.png alt="Mona the Octocat wearing a jetpack and smiling." width=300 align=right>
 
-Here's a recap of all the tasks you've accomplished in your repository:
+**Seeing your _action_ in action**: The status of each workflow run that's triggered is shown in the pull request before it's merged: look for **All checks have passed** when you try out the steps below. You can also see a list of all the workflows that are running or have finished running, in your repository's **Actions** tab. You can click on each workflow run to view more details and access log files from there.
 
 - You've created your first GitHub Actions workflow file.
 - You learned where to make your workflow file.
@@ -21,12 +23,12 @@ Here's a recap of all the tasks you've accomplished in your repository:
 
 ### What's next?
 
-- Learn more about GitHub Actions by reading "[Learn GitHub Actions](https://docs.github.com/actions/learn-github-actions)"
-- Use actions created by others in [awesome-actions](https://github.com/sdras/awesome-actions)
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/hello-github-actions)
-- [Take another course on GitHub Actions](https://skills.github.com/#automate-workflows-with-github-actions)
-- Learn more about GitHub by reading the "[Get started](https://docs.github.com/get-started)" docs
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore)
+- Make a new branch named `test-workflow`.
+- Make a change, such as adding an emoji to your README.md file, and commit the change directly to your new branch.
+- In the **Pull requests** tab, create a pull request to merge `test-workflow` into `main`.
+- Watch the workflow running in the checks section of the pull request.
+- Notice the comment that the workflow adds to the pull request.
+- Wait about 20 seconds, then refresh this page (the one you're following instructions from). Another workflow will run and will replace the contents of this README file with instructions for the next step.
 
 <footer>
 
